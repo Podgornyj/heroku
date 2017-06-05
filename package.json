@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "babel-node index.js"
   },
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "4.6.x"
+    "node": "7.9.0",
+    "npm": "4.6.1"
   },
   "dependencies": {
     "babel-cli": "^6.0.0",
