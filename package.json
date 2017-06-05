@@ -8,6 +8,9 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "4.6.x"
+  },
   "dependencies": {
     "babel-cli": "^6.0.0",
     "babel": "^6.23.0",
