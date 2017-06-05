@@ -2,7 +2,7 @@ const passport = require('koa-passport');
 const User = require('../models/user');
 const pick = require('lodash/pick');
 const uuidV4 = require('uuid/v4');
-const sendMail = require('../libs/sendmail');
+const sendMail = require('../libs/sendmail/index.js');
 
 exports.get = async function(ctx, next) {
 	User.find({},function(err, users){
