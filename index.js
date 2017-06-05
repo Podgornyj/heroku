@@ -1,6 +1,8 @@
 // A "closer to real-life" app example
 // using 3rd party middleware modules
 // P.S. MWs calls be refactored in many files
+require('babel-register');
+require('babel-polyfill;);
 let passport = require('passport');
 // long stack trace (+clarify from co) if needed
 if (process.env.TRACE) {

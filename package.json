@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/babel-node index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -67,6 +66,8 @@
     "yargs": "^5.0.0"
   },
   "devDependencies": {
+    "babel-polyfill": "^6.23.0",
+    "babel-register": "^6.24.1",
     "eslint": "^3.3.1",
     "eslint-config-google": "^0.6.0",
     "selenium-webdriver": "^3.0.1"
