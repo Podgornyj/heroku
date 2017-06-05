@@ -6,8 +6,9 @@ module.exports = {
   // or a separate config
   secret:   'mysecret',
   mongoose: {
-      // uri:     'mongodb://localhost/app',
-       uri:     'mongodb://Test:Test1@cluster0-shard-00-00-h3esm.mongodb.net:27017,cluster0-shard-00-01-h3esm.mongodb.net:27017,cluster0-shard-00-02-h3esm.mongodb.net:27017/testDataBase?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin',
+      //uri:     'mongodb://localhost/app',
+      //uri:     'mongodb://Test:Test1@cluster0-shard-00-00-h3esm.mongodb.net:27017,cluster0-shard-00-01-h3esm.mongodb.net:27017,cluster0-shard-00-02-h3esm.mongodb.net:27017/testDataBase?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin',
+        uri:'mongodb://test:test1@ds163181.mlab.com:63181/testnodedb',
     options: {
       server: {
         socketOptions: {
