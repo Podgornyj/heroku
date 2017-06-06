@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "start": "node index.js"
+  },
   "engines": {
     "node": "7.9.0"
   },
