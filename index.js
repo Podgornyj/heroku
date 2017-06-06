@@ -36,4 +36,4 @@ const router = new Router();
 
 app.use(router.routes());
 
-app.listen(3000);
+app.listen(config.get('port'));
