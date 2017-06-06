@@ -24,7 +24,8 @@
     "koa-logger": "^2.0.0",
     "koa-router": "^7.0.1",
     "koa-static": "^3.0.0",
-    "trace": "^2.3.3"
+    "trace": "^2.3.3",
+    "pug": "^2.0.0-beta6"
   },
   "devDependencies": {
     "co-mocha": "^1.1.3",
