@@ -1,5 +1,4 @@
 //let passport = require('passport');
-
 const Koa = require('koa');
 const app = new Koa();
 
