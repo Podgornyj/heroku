@@ -1,0 +1,12 @@
+extends layout
+
+block content
+
+  h1 #{user.displayName}, please confirm your Email, #{user.email}!
+  a(class='button btn btn-lg btn-primary btn-block resendconfirm' href="resendconfirm/"+user.emailToken) Resend Confirm Email
+
+
+
+  form(action="/logout" method="post")
+    input(type="hidden" name="_csrf" value=csrf())
+    button.btn.btn-primary(type="submit") Logout

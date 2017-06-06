@@ -18,7 +18,7 @@ const Router = require('koa-router');
 
 const router = new Router();
 
-// router.get('/', require('./routes/frontpage').get);
+ router.get('/', require('./routes/frontpage').get);
 // router.get('/registration', require('./routes/registration').get);
 // router.post('/registration', require('./routes/registration').post);
 // router.post('/login', require('./routes/login').post);
