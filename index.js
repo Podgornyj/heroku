@@ -1,10 +1,10 @@
-let passport = require('passport');
+//let passport = require('passport');
 
 const Koa = require('koa');
 const app = new Koa();
 
 const config = require('config');
-const mongoose = require('./libs/mongoose');
+//const mongoose = require('./libs/mongoose');
 
 const path = require('path');
 const fs = require('fs');
